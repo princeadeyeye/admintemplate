@@ -11,21 +11,21 @@
 
 #topbar-logo {
   position: absolute;
-left: 2.92%;
-right: 86.46%;
-top: 25%;
-bottom: 26.67%;
+  left: 2.92%;
+  right: 86.46%;
+  top: 25%;
+  bottom: 26.67%;
 
-font-family: Roboto;
-font-style: normal;
-font-weight: 900;
-font-size: 24px;
-line-height: 28px;
-/* identical to box height */
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 24px;
+  line-height: 28px;
+  /* identical to box height */
 
-text-align: right;
+  text-align: right;
 
-color: #1875F0;
+  color: #1875F0;
 
 }
 
@@ -159,4 +159,14 @@ color: #647787;
   right: 5.56%;
   top: 6.67%;
   bottom: 5%;
+}
+
+.sidebar {
+  position: absolute;
+  width: 260px;
+  height: 1510px;
+  left: 1px;
+  top: 0px;
+
+  background: #FFFFFF;
 }
