@@ -357,37 +357,36 @@ background: #CCCFD4;
 }
 
 .dashboard-order-list a {
-display: flex;
-padding: 5px;
-font-family: Segoe UI;
-font-size: 14px;
-line-height: 16px;
-color: #262626;
+  display: flex;
+  padding: 5px;
+  font-family: Segoe UI;
+  font-size: 14px;
+  line-height: 16px;
+  color: #262626;
 }
 
 .table-header {
   position: absolute;
-width: 165px;
-height: 30px;
-left: 290px;
-top: 567px;
-margin-bottom: 4em;
-font-family: Segoe UI;
-font-size: 36px;
-line-height: 48px;
-display: flex;
-align-items: flex-end;
+  width: 165px;
+  height: 30px;
+  left: 290px;
+  top: 567px;
+  margin-bottom: 4em;
+  font-family: Segoe UI;
+  font-size: 36px;
+  line-height: 48px;
+  display: flex;
+  align-items: flex-end;
 
-color: #262626;
+  color: #262626;
 }
 
 .table-header-input p{
-
   width: 1069px;
   height: 30px;
   left: 262px;
   top: 614px;
-
+padding-right: 0px;
   color: #262626;
 }
 
@@ -402,14 +401,12 @@ font-family: Segoe UI;
 font-size: 13px;
 line-height: 17px;
 /* identical to box height */
-
 display: flex;
 align-items: flex-end;
 color: #000000;
 }
 
 .table-pagination span {
-
 top: 0%;
 bottom: 0%;
 display: flex;
@@ -417,4 +414,15 @@ align-items: flex-end;
 border: 1px solid #CED0DA;
 box-sizing: border-box;
 border-radius: 2px;
+}
+
+tr :nth-child(5n) {
+width: 120px;
+height: 33px;
+left: 1147px;
+top: 879px;
+color: #27AE60;
+border: 1px solid #CCCFD4;
+box-sizing: border-box;
+border-radius: 30px;
 }
