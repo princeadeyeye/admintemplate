@@ -244,3 +244,93 @@ line-height: 15px;
   font-size: 1em;
   line-height: 15px;
 }
+
+
+.dashboard-admin-card {
+  left: 0%;
+  right: 0%;
+  top: 0%;
+  bottom: 0%;
+
+  background: #FFFFFF;
+  border: 1px solid #EEF8FD;
+  box-sizing: border-box;
+  border-radius: 2px;
+}
+
+.dashboard-admin-card p {
+  left: 7.11%;
+  right: 39.53%;
+  top: 24%;
+  bottom: 54.67%;
+
+  font-family: Segoe UI;
+  font-size: 12px;
+  line-height: 16px;
+  /* identical to box height */
+
+  display: flex;
+  align-items: flex-end;
+
+  color: #787C90;
+}
+
+.dashboard-admin-card svg {
+  position: absolute;
+  left: 67.19%;
+  right: 8.3%;
+  top: 25.33%;
+  bottom: 25.33%;
+  background: linear-gradient(180deg, rgba(2, 148, 255, 0.126274) 33.13%, rgba(255, 255, 255, 0.0001) 117.06%);
+}
+
+.dashboard-admin-card h4 {
+  left: 7.11%;
+  right: 75.89%;
+  top: 45.33%;
+  bottom: 22.67%;
+
+  font-family: Segoe UI;
+  font-size: 18px;
+  line-height: 24px;
+  /* identical to box height */
+
+  display: flex;
+  align-items: flex-end;
+
+color: #262626;
+}
+
+.first-row {
+  margin-bottom: 4em;
+  font-family: Segoe UI;
+  font-size: 18px;
+  line-height: 21px;
+  /* identical to box height */
+
+  display: flex;
+  align-items: flex-end;
+
+  color: #4F4F4F;
+}
+
+.first-row button {
+margin-left: 1em;
+padding-left: .5em;
+width: 22px;
+height: 23px;
+background: #CCCFD4;
+}
+
+.dashboard-month-col strong{
+  height: 200px;
+  font-family: Segoe UI;
+  font-size: 14px;
+  line-height: 19px;
+  /* identical to box height, or 136% */
+  display: flex;
+  align-items: flex-start;
+  mix-blend-mode: normal;
+  border-right: 1px solid #CFE8FB;
+  margin-bottom: -8em;
+}
