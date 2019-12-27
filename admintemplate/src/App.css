@@ -162,31 +162,34 @@ color: #647787;
 }
 
 .sidebar {
- /* Rectangle 2 */
-
-width: 260px;
-height: 1510px;
-left: 1px;
-top: 0px;
-background: #FFFFFF;
 
 }
 
 
 .sidebar-btn {
-width: 163px;
-left: 32px;
-top: 93px;
-background: #27AE60;
-border-radius: 30px;
+  width: 163px;
+  height: 33px;
+  padding: 1em;
+  margin: 4em;
+  text-transform: uppercase;
+  background: #27AE60;
+  border-radius: 30px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 12px;
+  line-height: 14px;
+  text-align: center;
+  letter-spacing: 0.2px;
+  color: #FFFFFF;
 }
 
+
+
 .sidebar-heading {
-
-
-margin: .5em 6.5em 11em 3em;
+margin: 4em;
 font-family: Segoe UI;
-font-size: 1em;
+font-size: .8em;
 line-height: 15px;
 /* identical to box height */
 
@@ -197,21 +200,27 @@ color: #647787;
 }
 
 .sidebar-overview {
-
-
-margin: .5em 6.5em 11em 3em;
-
-font-family: Segoe UI;
-font-size: 1em;
-line-height: 15px;
-/* identical to box height */
-
-
-/* Text */
-
-color: #647787;
+  margin:  3em;
+  padding-right: 1em;
+  font-family: Segoe UI;
+  font-size: 1em;
+  line-height: 15px;
+  color: #647787;
 }
 
 .sidebar-payments-heading {
+  left: 16.15%;
+  right: 63.85%;
+  top: 21.46%;
+  bottom: 75.32%;
 
+  font-family: Segoe UI;
+  font-size: 11px;
+  line-height: 15px;
+  /* identical to box height */
+
+
+  /* Text */
+
+  color: #647787;
 }
