@@ -334,3 +334,33 @@ background: #CCCFD4;
   border-right: 1px solid #CFE8FB;
   margin-bottom: -8em;
 }
+
+.dashboard-order-list {
+  top: 216px;
+  font-family: Segoe UI;
+  font-size: 14px;
+  line-height: 16px;
+  list-style-type: none;
+  color: #262626;
+}
+
+.dashboard-card-2 {
+  margin-left: -1.8em;
+  height: 395px;
+}
+
+.dashboard-card-2 hr {
+  height: 4px;
+  left: 1006px;
+  top: 245px;
+  background: #27AE60;
+}
+
+.dashboard-order-list a {
+display: flex;
+padding: 5px;
+font-family: Segoe UI;
+font-size: 14px;
+line-height: 16px;
+color: #262626;
+}

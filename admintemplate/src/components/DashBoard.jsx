@@ -13,11 +13,6 @@ const DashboardPage =  () => {
       <DailyTransaction />
       <ChartSection1 />
       <TableSection />
-      <ChartSection2 />
-      <MDBRow className="mb-4">
-          <ModalSection />
-      </MDBRow>
-      <AdminCardSection2 />
     </div>
   )
 }

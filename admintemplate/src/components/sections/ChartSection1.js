@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import { MDBCol, MDBCard, MDBCardBody, MDBCardHeader, MDBRow, MDBListGroup, MDBListGroupItem, MDBBadge, MDBIcon } from 'mdbreact';
-
+import {NavLink } from 'react-router-dom'
 class ChartSection1 extends Component {
     render(){
 
@@ -40,10 +40,28 @@ class ChartSection1 extends Component {
                         </MDBCardBody>
                     </MDBCard>
                 </MDBCol>
-                  <MDBCol xl="4"className="mb-4">
-                    <MDBCard className="mb-4">
+                  <MDBCol xl="4">
+                    <MDBCard className="dashboard-card-2">
                         <MDBCardBody>
-
+                            <div className='row'>
+                                <ul class=' dashboard-order-list'>
+                                <strong>Orders</strong>
+                                    <hr />
+                                    <a to='#!'>pending Orders<strong>:20</strong></a>
+                                    <a to='#!'>Reconcilled Orders<strong>:80</strong></a>
+                                    <a to='#!'>Total Orders<strong>:100</strong></a>
+                                </ul>
+                            </div>
+                            <hr />
+                            <div class='row'>
+                                <ul className='dashboard-order-list'>
+                                <strong>Payments</strong>
+                                    <hr />
+                                    <a  to='#!'>pending Payments<strong>:20</strong></a>
+                                    <a to='#!'>Reconcilled Payments<strong>:80</strong></a>
+                                    <a to='#!'>Total Payments<strong>:100</strong></a>
+                                </ul>
+                            </div>
                         </MDBCardBody>
                     </MDBCard>
                 </MDBCol>
