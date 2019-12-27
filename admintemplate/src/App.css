@@ -213,9 +213,8 @@ color: #647787;
   right: 63.85%;
   top: 21.46%;
   bottom: 75.32%;
-
   font-family: Segoe UI;
-  font-size: 11px;
+  font-size: 1em;
   line-height: 15px;
   /* identical to box height */
 
@@ -223,4 +222,25 @@ color: #647787;
   /* Text */
 
   color: #647787;
+}
+
+.sidebar-order-list {
+left: 16.15%;
+right: 58.46%;
+top: 58.37%;
+bottom: 38.41%;
+padding: 1em;
+font-family: Segoe UI;
+font-size: 1em;
+line-height: 15px;
+}
+.sidebar-profile {
+  left: 29.23%;
+  right: 38.46%;
+  top: 88.2%;
+  bottom: 8.58%;
+  margin-top: 1em;
+  font-family: Segoe UI;
+  font-size: 1em;
+  line-height: 15px;
 }

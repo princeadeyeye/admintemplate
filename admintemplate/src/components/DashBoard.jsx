@@ -10,7 +10,7 @@ import ModalSection from './sections/ModalSection';
 
 const DashboardPage =  () => {
   return (
-    <React.Fragment>
+    <div>
       <AdminCardSection1 />
       <ChartSection1 />
       <TableSection />
@@ -19,7 +19,7 @@ const DashboardPage =  () => {
           <ModalSection />
       </MDBRow>
       <AdminCardSection2 />
-    </React.Fragment>
+    </div>
   )
 }
 
