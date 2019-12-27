@@ -5,39 +5,76 @@ class SideBar extends Component {
 
     render() {
         return (
-            <div className="sidebar-fixed position-fixed mt-4">
-
-
-                <NavLink exact={true} to="/" activeClassName="activeClass">
-                    <MDBListGroupItem>
-                        <button className='btn btn-success'>Generate Invoice</button>
-                    </MDBListGroupItem>
+            <div className="sidebar-fixed mt-4">
+                <NavLink exact={true} to="/" activeClassName="">
+                        <button className='btn btn-success sidebar-btn'>Generate Invoice</button>
                 </NavLink>
-                <MDBListGroup className="list-group-flush">
-                	<h5 className='mb-1'>Main</h5>
-                <NavLink to="#!" activeClassName="activeClass">
+                	<div className='mb-1 sidebar-heading'>Main</div>
+                <NavLink className='sidebar-overview' to="#!" activeClassName="activeClass">
                         Overview
                 </NavLink>
-                <NavLink to="/tables" activeClassName="activeClass">
+                <MDBListGroup className="list-group-flush sidebar-payments-heading">
+                	 <p>Payments</p>
+                	 <NavLink to="# !" activeClassName="">
                     <MDBListGroupItem>
-                        <MDBIcon icon="table" className="mr-3"/>
-                        Tables
+                        <i class="fas fa-list-alt mr-2"></i>
+                        All Payments
                     </MDBListGroupItem>
-                </NavLink>
-                <NavLink to="/maps" activeClassName="activeClass">
+                    </NavLink>
+
+                     <NavLink to="# !" activeClassName="">
                     <MDBListGroupItem>
-                        <MDBIcon icon="map" className="mr-3"/>
-                        Maps
+                        <i class="far fa-list-alt mr-2"></i>
+                        Reconcilled Payments
                     </MDBListGroupItem>
-                </NavLink>
-                <NavLink to="/404" activeClassName="activeClass">
+                    </NavLink>
+
+                    <NavLink to="# !" activeClassName="">
                     <MDBListGroupItem>
-                        <MDBIcon icon="exclamation" className="mr-3"/>
-                        404
+                        <i class="fas fa-clipboard-list mr-2"></i>
+                        Un - Reconcilled Payments
                     </MDBListGroupItem>
-                </NavLink>
-            </MDBListGroup>
-        </div>
+                    </NavLink>
+
+                	 <NavLink to="# !" activeClassName="">
+                    <MDBListGroupItem>
+                       <i class="fas fa-record-vinyl mr-2"></i>
+                        Manual Settlement
+                    </MDBListGroupItem>
+                    </NavLink>
+                   </MDBListGroup>
+
+  				<MDBListGroup className="list-group-flush">
+                	 <p>Orders</p>
+                	 <NavLink to="# !" activeClassName="">
+                    <MDBListGroupItem>
+                        <i class="far fa-clipboard mr-2"></i>
+                        All Orders
+                    </MDBListGroupItem>
+                    </NavLink>
+
+                     <NavLink to="# !" activeClassName="">
+                    <MDBListGroupItem>
+                        <i class="fas fa-clipboard mr-2"></i>
+                        Pending Orders
+                    </MDBListGroupItem>
+                    </NavLink>
+
+                    <NavLink to="# !" activeClassName="">
+                    <MDBListGroupItem>
+                        <i class="fas fa-clipboard-list mr-2"></i>
+                        Reconcilled Orders
+                    </MDBListGroupItem>
+                    </NavLink>
+
+                     <NavLink to="# !" activeClassName="">
+                        <i class="fas fa-user-tie mr-2"></i>
+                       Merchant Profile
+                    </NavLink>
+                   </MDBListGroup>
+
+
+        		</div>
         );
     }
 }

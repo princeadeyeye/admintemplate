@@ -162,11 +162,56 @@ color: #647787;
 }
 
 .sidebar {
-  position: absolute;
-  width: 260px;
-  height: 1510px;
-  left: 1px;
-  top: 0px;
+ /* Rectangle 2 */
 
-  background: #FFFFFF;
+width: 260px;
+height: 1510px;
+left: 1px;
+top: 0px;
+background: #FFFFFF;
+
+}
+
+
+.sidebar-btn {
+width: 163px;
+left: 32px;
+top: 93px;
+background: #27AE60;
+border-radius: 30px;
+}
+
+.sidebar-heading {
+
+
+margin: .5em 6.5em 11em 3em;
+font-family: Segoe UI;
+font-size: 1em;
+line-height: 15px;
+/* identical to box height */
+
+
+/* Text */
+
+color: #647787;
+}
+
+.sidebar-overview {
+
+
+margin: .5em 6.5em 11em 3em;
+
+font-family: Segoe UI;
+font-size: 1em;
+line-height: 15px;
+/* identical to box height */
+
+
+/* Text */
+
+color: #647787;
+}
+
+.sidebar-payments-heading {
+
 }

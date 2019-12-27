@@ -14,7 +14,7 @@ function App() {
     </div>
 
      <div className='row'>
-      <div className='col-xl-6'>
+      <div className='col-xl-3'>
         <SideBar />
       </div>
     </div>
