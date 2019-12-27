@@ -364,3 +364,57 @@ font-size: 14px;
 line-height: 16px;
 color: #262626;
 }
+
+.table-header {
+  position: absolute;
+width: 165px;
+height: 30px;
+left: 290px;
+top: 567px;
+margin-bottom: 4em;
+font-family: Segoe UI;
+font-size: 36px;
+line-height: 48px;
+display: flex;
+align-items: flex-end;
+
+color: #262626;
+}
+
+.table-header-input p{
+
+  width: 1069px;
+  height: 30px;
+  left: 262px;
+  top: 614px;
+
+  color: #262626;
+}
+
+.table-pagination {
+  position: absolute;
+left: 0%;
+right: 83.54%;
+top: 17.24%;
+bottom: 20.69%;
+
+font-family: Segoe UI;
+font-size: 13px;
+line-height: 17px;
+/* identical to box height */
+
+display: flex;
+align-items: flex-end;
+color: #000000;
+}
+
+.table-pagination span {
+
+top: 0%;
+bottom: 0%;
+display: flex;
+align-items: flex-end;
+border: 1px solid #CED0DA;
+box-sizing: border-box;
+border-radius: 2px;
+}
