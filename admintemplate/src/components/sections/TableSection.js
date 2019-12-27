@@ -6,7 +6,24 @@ const TableSection = () => {
     <MDBRow className="mb-4">
           <MDBCol md="12">
               <MDBCard>
+              <div className='header'>
+                      <p>Payments</p>
+                      </div>
+              <div>
+                <p>Showing</p><span>20</span>
+                <span><input type='text'  placeholder=''Search Payments/></span>
+                <span>
+                  <select>
+                    <option value='All'></option>
+                    <option value=''></option>
+                    <option value=''></option>
+                    <option value=''></option>
+                    <option value=''></option>
+                  </select>
+                </span>
+              </div>
                   <MDBCardBody>
+
                     <MDBTable hover>
                       <MDBTableHead color="blue-grey lighten-4">
                         <tr>

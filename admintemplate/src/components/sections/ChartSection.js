@@ -1,7 +1,9 @@
 import React, { Component } from 'react';
 import { MDBCol, MDBCard, MDBCardBody, MDBCardHeader, MDBRow, MDBListGroup, MDBListGroupItem, MDBBadge, MDBIcon } from 'mdbreact';
 import {NavLink } from 'react-router-dom'
-class ChartSection1 extends Component {
+
+
+class ChartSection extends Component {
     render(){
 
         return (
@@ -70,5 +72,5 @@ class ChartSection1 extends Component {
     }
 }
 
-export default ChartSection1;
+export default ChartSection;
 
