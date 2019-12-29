@@ -366,18 +366,13 @@ background: #CCCFD4;
 }
 
 #p {
-  position: absolute;
 width: 165px;
 height: 30px;
-left: 290px;
-top: 567px;
-
 font-family: Segoe UI;
 font-size: 36px;
 line-height: 48px;
 display: flex;
-align-items: flex-end;
-
+justify-content: center;
 color: #262626;
 
 }
@@ -456,4 +451,8 @@ border-radius: 30px;
 border: 1px solid #CCCFD4;
 box-sizing: border-box;
 border-radius: 30px;
+}
+
+.tables :nth-child(5n) {
+
 }
