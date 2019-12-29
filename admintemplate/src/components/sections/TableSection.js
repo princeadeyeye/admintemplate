@@ -4,15 +4,16 @@ import { MDBCard, MDBCardBody, MDBTable, MDBTableBody, MDBTableHead, MDBRow, MDB
 const TableSection = () => {
   return (
     <MDBRow className="mb-4">
-      <div className='table-header row'>
-        <p className='col-xl-12'>Payments</p>
-      </div>
-        <div className='row table-header-input'>
+      <div className='row'>
 
+        <p className='col-xl-12' id='p'>Payments</p>
+      </div>
+        <MDBCol md="12"className="mb-4">
+            <div className=" table-pagination">
                 <p>Showing 20 <svg width="9" height="6" viewBox="0 0 9 6" fill="none" xmlns="http://www.w3.org/2000/svg">
                   <path d="M8 1L4.5 5L1 1" stroke="#1875F0"/>
                 </svg>
-              </p>
+              </p><p>out of 500 payments</p><span>
                 <input type='text'  placeholder='Search Payments'/>
                   <select>
                     <option value=''>All</option>
@@ -21,11 +22,12 @@ const TableSection = () => {
                     <option value=''>Settled</option>
                     <option value=''>Unsettled</option>
                   </select>
-              </div>
+                  </span>
+                  </div>
+                  </MDBCol>
           <MDBCol md="12">
               <MDBCard>
                   <MDBCardBody>
-
                     <MDBTable hover>
                       <MDBTableHead color="blue-grey lighten-4">
                         <tr>
@@ -82,12 +84,12 @@ const TableSection = () => {
                   </MDBCardBody>
               </MDBCard>
           </MDBCol>
-          <MDBCol md="12 table-pagination">
-            Showing 1 to 10 of 500 entries
-              <span>Previous </span>
-              <span>1</span>
-              <span>2</span>
-              <span>Next</span>
+          <MDBCol className="">
+            <p>Showing 1 to 10 of 500 entries</p>
+              <span id='i'>Previous </span>
+              <span id= "j">1</span>
+              <span id="l">2</span>
+              <span id = "k">Next</span>
           </MDBCol>
       </MDBRow>
   )

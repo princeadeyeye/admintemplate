@@ -365,56 +365,83 @@ background: #CCCFD4;
   color: #262626;
 }
 
-.table-header {
+#p {
   position: absolute;
-  width: 165px;
-  height: 30px;
-  left: 290px;
-  top: 567px;
-  margin-bottom: 4em;
-  font-family: Segoe UI;
-  font-size: 36px;
-  line-height: 48px;
-  display: flex;
-  align-items: flex-end;
+width: 165px;
+height: 30px;
+left: 290px;
+top: 567px;
 
-  color: #262626;
+font-family: Segoe UI;
+font-size: 36px;
+line-height: 48px;
+display: flex;
+align-items: flex-end;
+
+color: #262626;
+
 }
 
-.table-header-input p{
-  width: 1069px;
-  height: 30px;
-  left: 262px;
-  top: 614px;
-padding-right: 0px;
-  color: #262626;
-}
+
 
 .table-pagination {
-  position: absolute;
-left: 0%;
-right: 83.54%;
-top: 17.24%;
-bottom: 20.69%;
-
 font-family: Segoe UI;
 font-size: 13px;
 line-height: 17px;
 /* identical to box height */
 display: flex;
-align-items: flex-end;
+justify-content: space-between;
+align-items: center;
+padding-right: 2em;
 color: #000000;
+margin-top: 5em;
 }
 
-.table-pagination span {
+
+
+
+#j {
+  position: absolute;
+left: 89.71%;
+right: 7.39%;
 top: 0%;
 bottom: 0%;
-display: flex;
-align-items: flex-end;
+
+background: #1875F0;
+}
+
+#l {
+  position: absolute;
+left: 93%;
+right: 7.39%;
+top: 0%;
+bottom: 0%;
+background: #fff;
+}
+#i {
+  position: absolute;
+left: 83.07%;
+right: 10.2%;
+top: 0%;
+bottom: 0%;
+
 border: 1px solid #CED0DA;
 box-sizing: border-box;
 border-radius: 2px;
 }
+
+#k {
+  position: absolute;
+left: 95.42%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+
+border: 1px solid #CED0DA;
+box-sizing: border-box;
+border-radius: 2px;
+}
+
 
 tr :nth-child(5n) {
 width: 120px;
@@ -422,6 +449,10 @@ height: 33px;
 left: 1147px;
 top: 879px;
 color: #27AE60;
+border: 1px solid #CCCFD4;
+box-sizing: border-box;
+border-radius: 30px;
+
 border: 1px solid #CCCFD4;
 box-sizing: border-box;
 border-radius: 30px;
