@@ -3,7 +3,7 @@ import { MDBCard, MDBCardBody, MDBIcon, MDBRow, MDBCol, MDBCardText } from 'mdbr
 
 const DailyTransaction = () => {
   return (
-    <MDBRow className="mt-3">
+    <MDBRow className="mt-4">
         <MDBCol xl="3" md="6" className="mb-4">
           <MDBCard className="cascading-admin-card">
               <div className="dashboard-admin-card">
