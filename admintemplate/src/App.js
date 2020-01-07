@@ -17,9 +17,7 @@ function App() {
         <div className='col-xl-3'>
           <SideBar />
         </div>
-        <div className='col-xl-8'>
           <DashBoard />
-        </div>
       </div>
     </div>
   );
